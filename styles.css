@@ -1,0 +1,652 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  
+  :root{
+    --cta-color: #3C302E;
+    --peragraph-color: #828282;
+    --title-text-color: #644C49;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Baloo 2', sans-serif;
+}
+
+
+ /* nav section design */
+
+.logo{
+    margin-top: 4px;
+}
+
+.nav-left{
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
+    padding-right: 60px;
+    
+}
+
+.nav-left p{
+    color: #644C49;
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+}
+
+
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 60px 10% 30px 10%;
+    transition: all ease .45s;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background: white;
+    
+}
+
+
+.nav_bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+
+.nav_bar ul li a{
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+    color: var(--title-text-color);
+    transition: all ease-in-out .30s
+    
+}
+
+
+.nav_bar ul li a:hover{
+    font-size: 16px;
+    color: var(--peragraph-color);
+}
+
+
+/* hero section design */
+
+h1{
+    color: var(--title-text-color);
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 96px */
+}
+
+
+p{
+    color: var(--title-text-color);
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 36px */
+    
+}
+
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px; 
+}
+
+
+input{
+    width: 100%;
+    height: 83px;
+    border-radius: 200px;
+    border: 2px solid var(--title-text-color);
+}
+
+#email::placeholder{
+    color: #828282;
+    font-family: Baloo Da 2;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 36px */
+    padding-left: 60px;
+}
+
+
+#submit{
+    width: 215px;
+    height: 83px;
+    flex-shrink: 0;
+    background: var(--cta-color);
+    color: white;
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 36px */
+}
+
+
+form{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+}
+
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 100%;
+    padding: 0 10%;
+    margin-bottom: 160px;
+    margin-top: 240px;
+}
+
+
+/* feature section design */
+
+
+.features{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    width: 100%;
+    padding: 0 10%;
+    margin-bottom: 160px;
+}
+
+.features-title{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: var(--title-text-color);
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 36px */
+    gap: 80px;
+    
+}
+
+.Featue-step{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    gap: 30px;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+}
+
+
+h2{
+    color: var(--title-text-color);
+    font-family:'Baloo 2', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 32px */
+}
+
+.feature-text{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.feature-text p{
+    color: var(--peragraph-color);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.Featue-step{
+    margin-right: 60px;
+}
+
+.text > :last-of-type {
+    margin-right: 0px; 
+}
+
+#video{
+    width: 100%;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 30px;
+}
+
+
+/* Our product section design coding */
+
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    width: 100%;
+    padding: 0 10%;
+    margin-bottom: 160px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.product-list-content {
+    flex: 1; /* Allow each product list content to take equal width */
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-content-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    
+}
+
+.product-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+.product-text p{
+    font-size: 24px;
+    color: var(--peragraph-color);
+
+}
+
+
+
+/* Pricing section design coding */
+
+
+.pricing{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 100%;
+    padding: 0 10%;
+    margin-bottom: 160px;
+    
+}
+
+.pricing-list{
+    display: flex;
+    flex-direction: row;
+    
+    gap: 60px;
+}
+
+.pricing-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+
+}
+
+.pricing-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+
+.pricing-text p{
+    font-size: 24px;
+    color: var(--peragraph-color);
+}
+
+.pricing-img{
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+}
+
+.price-money{
+    padding: 20px 116px;
+    background: var(--cta-color);
+    border-radius: 200px;
+    color: white;
+    font-size: 20px;
+    font-size: 'Baloo 2', sans-serif;
+    transition: all ease .45s;
+}
+
+
+.price-money:hover{
+    background: white;
+    border: 2px solid var(--cta-color);
+    color: var(--cta-color);
+}
+
+
+/* Footer section design coding */
+
+
+footer{
+    width: 100%;
+    padding: 60px 10%;
+    background: var(--title-text-color);
+    
+}
+
+.f-logo{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.f-left{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.f-left p{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.f-social-media{
+    display: flex;
+    gap: 60px;
+}
+
+.f-social-media a{
+    
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 15px 30px;
+    color: var(--white-font-color);
+    font-size: var(--peragraph-font-size);
+    line-height: 120%;
+    background: transparent;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    color: white;
+    transition: all ease .45s;
+    
+}
+
+.f-social-media a:hover{
+    color: var(--cta-color);
+    background: white;
+}
+
+
+/* Responsive design */
+
+@media (max-width: 1850px) {
+    .nav_bar{
+        padding: 60px 8% 30px 8%;
+        transition: 2s;
+        
+    }
+    .hero{
+        padding: 0 8%;
+        transition: 2s;
+    }
+    
+    .features{
+
+        padding: 0 8%;
+        transition: 2s;
+
+    }
+    .product{
+
+        padding: 0 8%;
+        transition: 2s;
+    }
+
+    .pricing{
+        padding: 0 8%;
+        transition: 2s;
+
+        
+    }
+
+    footer{
+        padding: 60px 8%;
+        transition: 2s;
+    }
+
+}
+
+@media (max-width: 1350px) {
+    .nav_bar{
+        padding: 60px 5% 30px 5%;
+        transition: 2s;
+        
+    }
+    .hero{
+        padding: 0 5%;
+        transition: 2s;
+    }
+    
+    .features{
+
+        padding: 0 5%;
+        transition: 2s;
+
+    }
+    .product{
+
+        padding: 0 5%;
+        transition: 2s;
+    }
+
+    .pricing{
+        padding: 0 5%;
+        transition: 2s;
+
+        
+    }
+
+    footer{
+        padding: 60px 5%;
+        transition: 2s;
+    }
+
+}
+
+
+@media (max-width: 1020px) {
+    .nav-left p{
+        display: none;
+    }
+
+    h1{
+        font-size: 56px;
+    }
+    
+    .text{
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 60px;
+
+    }
+    .product-list{
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    .product-content-bottom{
+        gap: 30px;
+    }
+
+    .pricing-list{
+        flex-wrap: wrap;
+        align-items: center; 
+    }
+
+    .pricing-content{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+    }
+
+    .pricing-text {
+        text-align: left;
+        
+    }
+
+
+}
+
+
+
+@media (max-width: 950px) {
+    .nav_bar ul{
+        display: none;
+    }
+    
+    .text{
+        width: 100%;
+    }
+
+    .product-list-content{
+        width: 100%;
+    }
+    .pricing-content {
+        width: 100%;
+    }
+    
+    .pricing-content{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;   
+    }
+
+    .pricing-text {
+        text-align: center;
+        
+    }
+
+    .nav_bar{
+        padding: 60px 3% 30px 3%;
+        transition: 2s;
+        
+    }
+    .hero{
+        padding: 0 3%;
+        transition: 2s;
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+    
+    .features{
+
+        padding: 0 3%;
+        transition: 2s;
+
+    }
+    .product{
+
+        padding: 0 3%;
+        transition: 2s;
+    }
+
+    .pricing{
+        padding: 0 3%;
+        transition: 2s;
+
+        
+    }
+
+    footer{
+        padding: 60px 3%;
+        transition: 2s;
+    }
+
+    h1{
+        font-size: 36px;
+    }
+
+    #email::placeholder{
+
+        font-size: 20px;
+        padding-left: 30px;
+    }
+    
+    
+    #submit{
+        width: 100%;
+        height: 80px;
+        font-size: 20px;
+    
+
+    }
+    
+    form{
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .f-social-media{
+        gap: 20px;
+    }
+
+
+}
+
+
+
