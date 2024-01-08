@@ -430,17 +430,21 @@ footer{
 }
 
 
+
+
+
 /* Responsive design */
+
 
 @media (max-width: 768px) {
 
     .nav_bar{
-        padding: 40px 4% 40px 4%;
+        padding: 40px 6% 40px 4%;
         transition: 2s;
         
     }
     .hero{
-        padding: 0 4%;
+        padding: 0 6%;
         transition: 2s;
         margin-top: 120px;
         margin-bottom: 80px;
@@ -448,24 +452,24 @@ footer{
     
     .features{
 
-        padding: 0 4%;
+        padding: 0 6%;
         transition: 2s;
 
     }
     .product{
 
-        padding: 0 4%;
+        padding: 0 6%;
         transition: 2s;
     }
 
     .pricing{
-        padding: 0 4%;
+        padding: 0 6%;
         transition: 2s;
         
     }
 
     footer{
-        padding: 40px 4%;
+        padding: 40px 6%;
         transition: 2s;
     }
 
@@ -546,200 +550,6 @@ footer{
 
 }
 
-
-/* @media (min-width: 1024px) {
-
-    .nav_bar{
-        padding: 40px 6% 40px 6%;
-        transition: 2s;
-        
-    }
-    .hero{
-        padding: 0 6%;
-        transition: 2s;
-        margin-top: 120px;
-        margin-bottom: 80px;
-    }
-    
-    .features{
-
-        padding: 0 6%;
-        transition: 2s;
-
-    }
-    .product{
-
-        padding: 0 6%;
-        transition: 2s;
-    }
-
-    .pricing{
-        padding: 0 6%;
-        transition: 2s;
-        
-    }
-
-    footer{
-        padding: 40px 6%;
-        transition: 2s;
-    }
-
-    
-
-    .nav-left p{
-        display: none;
-    }
-    
-    .text{
-        width: 100%;
-        flex-wrap: wrap;
-        gap: 60px;
-    }
-
-    .product-list-content{
-        width: 100%;
-    }
-
-    .product-content-bottom{
-        flex-wrap: wrap;
-        gap: 30px;
-    }
-
-    .pricing-content{
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-
-    }
-
-    .pricing-list{
-        flex-wrap: wrap;
-    }
-
-    .pricing-text {
-        text-align: left;
-        
-    }
-
-    .price-money{
-        padding: 20px 60px;
-    }
-
-    h1{
-        font-size: 56px;
-    }
-
-    .input{
-        width: 100%;
-    }
-
-    #email::placeholder{
-
-        font-size: 20px;
-        padding-left: 30px;
-    }
-    
-    
-    #submit{
-        width: 100%;
-        height: 80px;
-        font-size: 20px;
-    
-
-    }
-    
-    form{
-        gap: 10px;
-        flex-direction: column;
-    }
-
-    .f-social-media{
-        gap: 20px;
-    }
-
-} */
-
-
-
-
-
-
-
-/* Responsive design
-
-@media (max-width: 1850px) {
-    .nav_bar{
-        padding: 60px 8% 30px 8%;
-        transition: 2s;
-        
-    }
-    .hero{
-        padding: 0 8%;
-        transition: 2s;
-    }
-    
-    .features{
-
-        padding: 0 8%;
-        transition: 2s;
-
-    }
-    .product{
-
-        padding: 0 8%;
-        transition: 2s;
-    }
-
-    .pricing{
-        padding: 0 8%;
-        transition: 2s;
-
-        
-    }
-
-    footer{
-        padding: 60px 8%;
-        transition: 2s;
-    }
-
-}
-
-@media (max-width: 1350px) {
-    .nav_bar{
-        padding: 60px 5% 30px 5%;
-        transition: 2s;
-        
-    }
-    .hero{
-        padding: 0 5%;
-        transition: 2s;
-    }
-    
-    .features{
-
-        padding: 0 5%;
-        transition: 2s;
-
-    }
-    .product{
-
-        padding: 0 5%;
-        transition: 2s;
-    }
-
-    .pricing{
-        padding: 0 5%;
-        transition: 2s;
-
-        
-    }
-
-    footer{
-        padding: 60px 5%;
-        transition: 2s;
-    }
-
-}
 
 
 @media (max-width: 1020px) {
@@ -789,99 +599,6 @@ footer{
 
 
 
-@media (max-width: 950px) {
-    .nav_bar ul{
-        display: none;
-    }
-    
-    .text{
-        width: 100%;
-    }
-
-    .product-list-content{
-        width: 100%;
-    }
-    .pricing-content {
-        width: 100%;
-    }
-    
-    .pricing-content{
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;   
-    }
-
-    .pricing-text {
-        text-align: center;
-        
-    }
-
-    .nav_bar{
-        padding: 60px 3% 30px 3%;
-        transition: 2s;
-        
-    }
-    .hero{
-        padding: 0 3%;
-        transition: 2s;
-        margin-top: 80px;
-        margin-bottom: 80px;
-    }
-    
-    .features{
-
-        padding: 0 3%;
-        transition: 2s;
-
-    }
-    .product{
-
-        padding: 0 3%;
-        transition: 2s;
-    }
-
-    .pricing{
-        padding: 0 3%;
-        transition: 2s;
-
-        
-    }
-
-    footer{
-        padding: 60px 3%;
-        transition: 2s;
-    }
-
-    h1{
-        font-size: 36px;
-    }
-
-    #email::placeholder{
-
-        font-size: 20px;
-        padding-left: 30px;
-    }
-    
-    
-    #submit{
-        width: 100%;
-        height: 80px;
-        font-size: 20px;
-    
-
-    }
-    
-    form{
-        gap: 10px;
-        flex-direction: column;
-    }
-
-    .f-social-media{
-        gap: 20px;
-    }
-
-
-} */
 
 
 
